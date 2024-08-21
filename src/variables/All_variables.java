@@ -17,17 +17,25 @@ public class All_variables {
 		boolean	1 bit	Stores true or false values
 		char	2 bytes	Stores a single character/letter or ASCII values */
 		
+
 		int a = 127;
 		float b = 5.99f;
 		char c = 'D';
 		boolean d = true;
 		String e = "Hello";
+		byte g = 127;
+		short h = 32767;
+		long i = 922337259;
+		
 		
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(d);
 		System.out.println(e);
+		System.out.println(g);
+		System.out.println(h);
+		System.out.println(i);
 		
 		
 	}
