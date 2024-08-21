@@ -18,7 +18,7 @@ public class Find_armstrongnumber {
 	        while (originalNumber != 0)
 	        {
 	            remainder = originalNumber % 10;
-	            result = result + Math.pow(remainder, 3);
+	            result = result + (remainder*remainder*remainder);
 	            originalNumber = originalNumber / 10;
 	        }
 
