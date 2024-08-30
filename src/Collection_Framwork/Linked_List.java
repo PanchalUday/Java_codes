@@ -2,7 +2,7 @@ package Collection_Framwork;
 
 import java.util.*;
 
-public class JavaLinkedList {
+public class Linked_List {
 
 	public static void main(String[] args) {
 		
