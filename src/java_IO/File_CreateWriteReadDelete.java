@@ -23,7 +23,7 @@ public class File_CreateWriteReadDelete {
 		
 		try {
             FileWriter fileWriter = new FileWriter("E:\\JavaIO\\testfile.txt");
-            fileWriter.write("you are learnig the java Programming \nKeep Going!");
+            fileWriter.write("you are learning the java Programming \nKeep Going!");
             fileWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -42,7 +42,7 @@ public class File_CreateWriteReadDelete {
             e.printStackTrace();
         }
 		
-		
+
 //		Deleting a File
 		
 //        if(myFile.delete()){
